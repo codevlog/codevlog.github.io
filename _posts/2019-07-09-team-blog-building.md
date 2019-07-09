@@ -1,20 +1,12 @@
-\---
-
+---
 layout: post
-
 title: "프로젝트 팀 블로그 Git Pages 이용해 만들기"
-
 author: "coalee"
-
 date: '2019-07-09 14:04:00 +0900'
-
 category: howto
-
 summary: 팀블로그용 Git Pages 생성하기
-
 thumbnail: posts/hello.jpg
-
-\---
+---
 
 ## 만드는 이유
 
