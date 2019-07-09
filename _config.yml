@@ -1,0 +1,18 @@
+# Setup
+title:        CodeV 개발 일지
+tagline:      CodeV 서비스를 개발자들의 팀 블로그. 개발 고민, 알게된 것, 공유하고 싶은 것들을 정리하고 공개합니다
+baseurl:      ""
+paginate:     1
+locale:       "en"
+
+# About/contact
+author:
+  name:       CodeV Team
+  url:        http://yourhomepage.com 
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
