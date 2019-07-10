@@ -3,7 +3,7 @@ layout: post
 title: "[Howto] 포스트 작성하는 법"
 author: "coalee"
 date: '2019-07-10 10:00:00 +0900'
-categories: howto
+categories: [howto, blog, markdown]
 ---
 
 ## 먼저, 포스트 작성의 이유와 이점
