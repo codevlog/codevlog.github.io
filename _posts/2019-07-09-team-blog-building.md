@@ -2,9 +2,9 @@
 layout: post
 title: "프로젝트 팀 블로그 Git Pages 이용해 만들기"
 author: "coalee"
-date: '2019-07-09 14:04:00 +0900'
-category: howto
+date: '2019-07-09 14:04:00 +0900's
 summary: 팀블로그용 Git Pages 생성하기
+category: howto
 thumbnail: posts/hello.jpg
 ---
 
