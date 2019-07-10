@@ -3,9 +3,7 @@ layout: post
 title: "[Howto] 포스트 작성하는 법"
 author: "coalee"
 date: '2019-07-10 10:00:00 +0900
-summary: 팀블로그에서 글 작성하기 + 컨벤션
-tag: howto
-thumbnail: posts/hello.jpg
+categories: howto
 ---
 
 ## 먼저, 포스트 작성의 이유와 이점
@@ -23,7 +21,7 @@ thumbnail: posts/hello.jpg
 ## 작성법 요약
 
 - **깃 블로그**: Git Pages 서비스를 활용해 블로그 형식으로 글을 올리는 것. 
-- 다른 형식으로 운영하는 모습은 아직 보진 못했다. Git Pages == 블로그?
+  - 다른 형식으로 운영하는 모습은 아직 보진 못했다. Git Pages == 블로그?
 - **Git Pages**: Github repo에 올라와있는 파일 구조를 웹페이지로 변환해주는 것
 - **포스팅**: Github repo에 정해진 규칙에 맞춰 마크다운 문서를 작성하고, commit하는 것
 - **정해진 규칙**: `_posts` 폴더 아래에 파일명 `YYYY-MM-DD-some-subject-title-blah.md`로 작성. (예: `2019-07-09-team-blog-building.md`)
@@ -38,8 +36,7 @@ layout: post
 title: "[Howto] 포스트 작성하는 법"
 author: "coalee"
 date: '2019-07-10 10:00:00 +0900
-summary: 팀블로그에서 글 작성하는 법
-tags: [howto, blog, markdown]
+categories: [howto, blog, markdown]
 ---
 ## 소제목1
 본문 본문
@@ -54,7 +51,6 @@ tags: [howto, blog, markdown]
 ```
 
 - 문서 맨 위 `---` 사이에 글에 대한 metadata를 작성한다. 
-  - 아직 summary와 tag는 활용하지 않고 있지만 우선 작성해주시면 이후에 활용할 수 있을 것 같습니다.
 - 아래에 본문을 작성한다. 소제목부터 ## 두개 붙여서 작성하시면 됩니다.
 - 본문은 자신의 스타일에 따라서 자유롭게
 - 마지막에 참고사이트를 적어주면 다른 사람들과 미래의 나에게 도움이 됩니다 :)

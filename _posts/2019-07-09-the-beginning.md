@@ -1,4 +1,10 @@
-# CodeVlog 시작합니다!
+---
+layout: post
+title: "CodeVlog 시작합니다!"
+author: "coalee"
+'2019-07-09 13:10:00 +0900'
+categories: notice blog
+---
 
 첫번째 글 작성.
 
