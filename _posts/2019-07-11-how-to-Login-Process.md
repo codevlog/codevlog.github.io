@@ -18,17 +18,17 @@ categories: [howto, blog, markdown]
 ---
 
 1. firebase key받기
-![firebaseKey1](./img/Login/슬라이드1.png)
+![firebaseKey1](../_posts/img/Login/슬라이드1.png)
 
-![firebaseKey2](./img/Login/슬라이드2.png)
+![firebaseKey2](../_posts/img/Login/슬라이드2.png)
 
-![firebaseKey3](./img/Login/슬라이드3.png)
+![firebaseKey3](../_posts/img/Login/슬라이드3.png)
 
-![firebaseKey4](./img/Login/슬라이드4.png)
+![firebaseKey4](../_posts/img/Login/슬라이드4.png)
 
-![firebaseKey5](./img/Login/슬라이드5.png)
+![firebaseKey5](../_posts/img/Login/슬라이드5.png)
 
-![firebaseKey6](./img/Login/슬라이드6.png)
+![firebaseKey6](../_posts/img/Login/슬라이드6.png)
 
 `TEST CODE`
 ```js
@@ -97,12 +97,12 @@ const firestore = firebase.firestore()
     ```
     
     3. Facebook로그인을 이용한 구현
-    ![firebaseKey7](./img/Login/슬라이드7.png)
-    ![firebaseKey8](./img/Login/슬라이드8.png)
-    ![firebaseKey9](./img/Login/슬라이드9.png)
-    ![firebaseKey10](./img/Login/슬라이드10.png)
-    ![firebaseKey11](./img/Login/슬라이드11.png)
-    ![firebaseKey12](./img/Login/슬라이드12.png)
+    ![firebaseKey7](../_posts/img/Login/슬라이드7.png)
+    ![firebaseKey8](../_posts/img/Login/슬라이드8.png)
+    ![firebaseKey9](../_posts/img/Login/슬라이드9.png)
+    ![firebaseKey10](../_posts/img/Login/슬라이드10.png)
+    ![firebaseKey11](../_posts/img/Login/슬라이드11.png)
+    ![firebaseKey12](../_posts/img/Login/슬라이드12.png)
     
     `TEST CODE`
     ```js
