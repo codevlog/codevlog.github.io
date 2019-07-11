@@ -34,7 +34,7 @@ categories: [Vue, Javascript, API]
 
 완성한 Vue Page를 실행하면 흔한 Vue 시작 페이지가 보인다.
 거기서 Vue 이미지를 서울의 날씨 이미지로 설정하고,
-날씨와 온도(화씨) 습도를 밑에 적어보자.
+날씨와 온도(켈빈온도) 습도를 밑에 적어보자.
 
 ```javascript
 <template>
