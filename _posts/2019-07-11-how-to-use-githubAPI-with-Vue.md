@@ -2,7 +2,7 @@
 layout: post
 title: "Github API 사용하기 (feat.Vue)"
 author: "Geon._.Uk"
-date: '2019-07-11 17:02:00 +0900
+date: '2019-07-11 17:02:00 +0900'
 categories: [Vue, Javascript, API, Git]
 ---
 
