@@ -34,7 +34,7 @@ categories: [Vue, Javascript, API]
 
 완성한 Vue Page를 실행하면 흔한 Vue 시작 페이지가 보인다.
 거기서 Vue 이미지를 서울의 날씨 이미지로 설정하고,
-날씨와 온도(화씨) 습도를 밑에 적어보자.
+날씨와 온도(켈빈온도) 습도를 밑에 적어보자.
 
 ```javascript
 <template>
@@ -61,7 +61,7 @@ categories: [Vue, Javascript, API]
 http://api.openweathermap.org/data/2.5/weather?q=Seoul&appid=(APIKey)
 에다가 잘 넣어준다면,
 
-![weatherData](img/openweatherAPI/weatherData.png)
+![weatherData](img/openweatherAPI/weatherData.PNG)
 식의 데이터를 볼 수 있다.
 
 script 태그 안에
@@ -118,6 +118,10 @@ export default {
 
 ## 2. Result
 ![result](img/openweatherAPI/result.PNG)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 96f4273bf236c0696dcea4e6775e46a6a68027b7
 의 결과가 나타난다.
 
 ## 3. 참고사이트
