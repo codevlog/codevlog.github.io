@@ -178,7 +178,8 @@ App.vue script 부분
 ## 2. Result
     
 ![result](https://codevlog.github.io/assets/img/githubAPI/result.PNG)
-실행결과 별로 없는 repo들이 아주 잘 나왔다.
+
+실행결과 별로 없는 나의 repo들이 아주 잘 나왔다.
 ## 3. 참고사이트
 
 - https://developer.github.com/v3/
