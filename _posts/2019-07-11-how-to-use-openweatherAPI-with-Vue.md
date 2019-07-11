@@ -118,12 +118,16 @@ export default {
 
 ## 2. Result
 <<<<<<< HEAD
+<<<<<<< HEAD
 ![result](img/openweatherAPI/result.PNG)
 <<<<<<< HEAD
 =======
 =======
 ![result](../assets/img/openweatherAPI/result.PNG)
 >>>>>>> 6e16a868b6f9b57ba170a043c45ec18af7e63726
+=======
+![result]({{site_url}}/assets/img/openweatherAPI/result.PNG)
+>>>>>>> 7ed7d1cd8ec26edef76cd94501d9c45061f243a2
 
 >>>>>>> 96f4273bf236c0696dcea4e6775e46a6a68027b7
 의 결과가 나타난다.
