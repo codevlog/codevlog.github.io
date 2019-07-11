@@ -22,7 +22,7 @@ categories: [howto, blog, markdown]
 
 ![firebaseKey2](_posts/img/Login/슬라이드2.png)
 
-![firebaseKey3](/img/Login/슬라이드3.png)
+![firebaseKey3](img/Login/슬라이드3.png)
 
 ![firebaseKey4](/img/Login/슬라이드4.png)
 
