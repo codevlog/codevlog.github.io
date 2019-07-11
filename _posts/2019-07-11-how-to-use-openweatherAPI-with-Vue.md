@@ -61,7 +61,7 @@ categories: [Vue, Javascript, API]
 http://api.openweathermap.org/data/2.5/weather?q=Seoul&appid=(APIKey)
 에다가 잘 넣어준다면,
 
-![weatherData](../assets/img/openweatherAPI/weatherData.PNG)
+![weatherData](https://codevlog.github.io/assets/img/openweatherAPI/weatherData.PNG)
 식의 데이터를 볼 수 있다.
 
 script 태그 안에
@@ -117,19 +117,8 @@ export default {
 위의 소스를 작성 후 실행을 하면,
 
 ## 2. Result
-<<<<<<< HEAD
-<<<<<<< HEAD
-![result](img/openweatherAPI/result.PNG)
-<<<<<<< HEAD
-=======
-=======
-![result](../assets/img/openweatherAPI/result.PNG)
->>>>>>> 6e16a868b6f9b57ba170a043c45ec18af7e63726
-=======
-![result]({{site_url}}/assets/img/openweatherAPI/result.PNG)
->>>>>>> 7ed7d1cd8ec26edef76cd94501d9c45061f243a2
+![result](https://codevlog.github.io/assets/img/openweatherAPI/result.PNG)
 
->>>>>>> 96f4273bf236c0696dcea4e6775e46a6a68027b7
 의 결과가 나타난다.
 
 ## 3. 참고사이트
