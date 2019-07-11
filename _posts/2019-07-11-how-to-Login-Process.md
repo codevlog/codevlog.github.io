@@ -18,7 +18,7 @@ categories: [howto, blog, markdown]
 ---
 
 1. firebase key받기
-![firebaseKey1](/img/Login/슬라이드1.png)
+![firebaseKey1](codevlog.github.io/_posts/img/Login/슬라이드1.png)
 
 ![firebaseKey2](/img/Login/슬라이드2.png)
 
