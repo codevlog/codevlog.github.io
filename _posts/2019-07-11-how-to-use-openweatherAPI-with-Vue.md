@@ -61,7 +61,7 @@ categories: [Vue, Javascript, API]
 http://api.openweathermap.org/data/2.5/weather?q=Seoul&appid=(APIKey)
 에다가 잘 넣어준다면,
 
-![weatherData](img/openweatherAPI/weatherData.PNG)
+![weatherData](../assets/img/openweatherAPI/weatherData.PNG)
 식의 데이터를 볼 수 있다.
 
 script 태그 안에
