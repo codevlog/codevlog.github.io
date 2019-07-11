@@ -117,7 +117,7 @@ export default {
 위의 소스를 작성 후 실행을 하면,
 
 ## 2. Result
-![result]("/_post/img/openweatherAPI/result.png")
+![result](img/openweatherAPI/result.PNG)
 의 결과가 나타난다.
 
 ## 3. 참고사이트
