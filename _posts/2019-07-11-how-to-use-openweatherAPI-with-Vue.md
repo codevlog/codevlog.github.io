@@ -117,10 +117,10 @@ export default {
 위의 소스를 작성 후 실행을 하면,
 
 ## 2. Result
-![result](/_post/img/openweatherAPI/result.png)
+![result]({{ "/_post/img/openweatherAPI/result.png" | absolute_url }})
 의 결과가 나타난다.
 
 ## 3. 참고사이트
 
-https://blog-han.tistory.com/35
-https://devtimothy.tistory.com/91
+- https://blog-han.tistory.com/35
+- https://devtimothy.tistory.com/91
