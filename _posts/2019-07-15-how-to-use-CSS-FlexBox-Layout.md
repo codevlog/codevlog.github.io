@@ -6,7 +6,7 @@ title:  "FlexBox 가이드"
 
 author: "nenemttin"
 
-date: '2019-07-15 11:07'
+date: '2019-07-15 11:07 +0900'
 
 categories: [css, flexbox, guide]
 
@@ -37,10 +37,10 @@ categories: [css, flexbox, guide]
 
 * 아이템들은 다음의 main axis (main-start부터 main-end로) 또는 cross axis(cross-start부터 cross-end로)에 놓여진다.
   * **main axis** - flex container에서 아이템이 놓이는 가장 주요한 축이다. 수평일 필요는 없고, flex-direction property에 따라 달라진다.
-  * **main-start | main-end** - 아이템이 start로부터 end로 놓인다
+  * **main-start / main-end** - 아이템이 start로부터 end로 놓인다
   * **main size** - main dimension에서 flex 아이템들의 너비 혹은 높이 
   * **cross axis** - main axis의 수직 버전, 이것의 방향은 main axis와 같다.
-  * **cross-start | cross-end** - 아이템이 start로부터 end로 놓인다
+  * **cross-start / cross-end** - 아이템이 start로부터 end로 놓인다
   * **cross-size** - cross dimension에서 flex 아이템들의 너비나 높이
 
 ---
@@ -53,10 +53,10 @@ categories: [css, flexbox, guide]
 
   ![img3](/assets/img/flexbox/img3.png)
 
-  * container 속성 설정 (flex, inline, block, inlineblock)****
+  * container 속성 설정 (flex, inline, block, inlineblock)
   * flex - flex box로 만든다.
-  * inline - <span>, <b>, <i> 태그 등이 해당, block과 달리 줄 바꿈이 되지 않고, width, height를 지정할 수 없음
-  * block - <div> / <p> 등이 해당, 가로 길이가 기본적으로 100%, block인 태그를 이어서 사용하면 줄바꿈 되어 보임, width, height 속성 지정할 수 있으며, 레이아웃 배치시 주로 쓰임
+  * inline - `<span>, <b>, <i>` 태그 등이 해당, block과 달리 줄 바꿈이 되지 않고, width, height를 지정할 수 없음
+  * block - `<div> / <p>` 등이 해당, 가로 길이가 기본적으로 100%, block인 태그를 이어서 사용하면 줄바꿈 되어 보임, width, height 속성 지정할 수 있으며, 레이아웃 배치시 주로 쓰임
   * inlineblock - block과 inline의 중간 형태라고 볼 수 있는데, 줄 바꿈이 되지 않지만 크기를 지정할 수 있습니다. internet Explorer 7 이하 사용 불가.
   * 참고 : [https://ofcourse.kr/css-course/display-%EC%86%8D%EC%84%B1](https://ofcourse.kr/css-course/display-속성)
 
@@ -77,7 +77,7 @@ categories: [css, flexbox, guide]
 
 * **flex-wrap**
 
-  ![img5](/assets/img/flexbox/\img5.png)
+  ![img5](/assets/img/flexbox/img5.png)
 
   * nowrap(default): 모든 아이템들을 한 줄에 둔다
   * wrap: 아이템들을 여러 줄에 둔다. 순서는 위 -> 아래
@@ -117,12 +117,12 @@ categories: [css, flexbox, guide]
 
 * **align-content**
 
-  ![img11](/assets/img/flexbox/\img11.png)
+  ![img11](/assets/img/flexbox/img11.png)
 
   * cross axis를 따라 컨테이너의 라인들을 정렬한다.
   * Note: 이 속성은 아이템들의 라인이 하나면 효과가 없다.
 
-  ![img12](/assets/img/flexbox/\img12.png)
+  ![img12](/assets/img/flexbox/img12.png)
 
 ---
 
