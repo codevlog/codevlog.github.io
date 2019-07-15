@@ -1,5 +1,3 @@
-# FlexBox 가이드
-
 ---
 
 layout: post
@@ -35,7 +33,7 @@ categories: [css, flexbox, guide]
 
 
 
-![img1](C:\Users\multicampus\codevlog.github.io\assets\img\flexbox\img1.png)
+![img1](/assets/img/flexbox/img1.png)
 
 * 아이템들은 다음의 main axis (main-start부터 main-end로) 또는 cross axis(cross-start부터 cross-end로)에 놓여진다.
   * **main axis** - flex container에서 아이템이 놓이는 가장 주요한 축이다. 수평일 필요는 없고, flex-direction property에 따라 달라진다.
@@ -47,13 +45,13 @@ categories: [css, flexbox, guide]
 
 ---
 
-![img2](C:\Users\multicampus\codevlog.github.io\assets\img\flexbox\img2.png)
+![img2](/assets/img/flexbox/img2.png)
 
 ### Properties for the Parent(flex container)
 
 * **display** 
 
-  ![img3](C:\Users\multicampus\codevlog.github.io\assets\img\flexbox\img3.png)
+  ![img3](/assets/img/flexbox/img3.png)
 
   * container 속성 설정 (flex, inline, block, inlineblock)****
   * flex - flex box로 만든다.
@@ -68,7 +66,7 @@ categories: [css, flexbox, guide]
 
 * **flex-direction**
 
-  ![img4](C:\Users\multicampus\codevlog.github.io\assets\img\flexbox\img4.png)
+  ![img4](/assets/img/flexbox/img4.png)
 
   * row(default) : 왼 -> 오
   * row-reverse: 오-> 왼
@@ -79,7 +77,7 @@ categories: [css, flexbox, guide]
 
 * **flex-wrap**
 
-  ![img5](C:\Users\multicampus\codevlog.github.io\assets\img\flexbox\img5.png)
+  ![img5](/assets/img/flexbox/\img5.png)
 
   * nowrap(default): 모든 아이템들을 한 줄에 둔다
   * wrap: 아이템들을 여러 줄에 둔다. 순서는 위 -> 아래
@@ -89,7 +87,7 @@ categories: [css, flexbox, guide]
 
 * **flex-flow**
 
-  ![img6](C:\Users\multicampus\codevlog.github.io\assets\img\flexbox\img6.png)
+  ![img6](/assets/img/flexbox/img6.png)
 
   * flex-direction 과 flex-wrap properties의 축약어로 컨테이너의 main과 cross 축을 함께 정의, 기본 값은 row nowrap
 
@@ -97,46 +95,46 @@ categories: [css, flexbox, guide]
 
 * **justify-content**
 
-  ![img7](C:\Users\multicampus\codevlog.github.io\assets\img\flexbox\img7.png)
+  ![img7](/assets/img/flexbox/img7.png)
 
   * main axis를 따라 정렬한다. 아래 그림으로 확인
 
   
 
-  ![img8](C:\Users\multicampus\codevlog.github.io\assets\img\flexbox\img8.png)
+  ![img8](/assets/img/flexbox/img8.png)
 
   
 
 * **align-items**
 
-  ![img9](C:\Users\multicampus\codevlog.github.io\assets\img\flexbox\img9.png)
+  ![img9](/assets/img/flexbox/img9.png)
 
   * cross axis를 따라 아이템들을 정렬한다.
 
-  ![img10](C:\Users\multicampus\codevlog.github.io\assets\img\flexbox\img10.png)
+  ![img10](/assets/img/flexbox/img10.png)
 
 
 
 * **align-content**
 
-  ![img11](C:\Users\multicampus\codevlog.github.io\assets\img\flexbox\img11.png)
+  ![img11](/assets/img/flexbox/\img11.png)
 
   * cross axis를 따라 컨테이너의 라인들을 정렬한다.
   * Note: 이 속성은 아이템들의 라인이 하나면 효과가 없다.
 
-  ![img12](C:\Users\multicampus\codevlog.github.io\assets\img\flexbox\img12.png)
+  ![img12](/assets/img/flexbox/\img12.png)
 
 ---
 
 ### Properties for the Children(flex items)
 
-![img13](C:\Users\multicampus\codevlog.github.io\assets\img\flexbox\img13.png)
+![img13](/assets/img/flexbox/img13.png)
 
 
 
 * **order**
 
-  ![img14](C:\Users\multicampus\codevlog.github.io\assets\img\flexbox\img14.png)
+  ![img14](/assets/img/flexbox/img14.png)
 
   * flex container 안에서 보여지는 순서를 제어한다.
 
@@ -144,7 +142,7 @@ categories: [css, flexbox, guide]
 
 * **flex-grow**
 
-  ![img15](C:\Users\multicampus\codevlog.github.io\assets\img\flexbox\img15.png)
+  ![img15](/assets/img/flexbox/img15.png)
 
   * 필요할 때 flex 아이템이 커지는 것
   * container 안에서 모든 아이템의 flex-grow 값이 1이라면, 공간이 균등하게 분배되어 나타나고, 한 아이템의 값이 2라면 1값을 가지는 아이템의 2배의 길이로 나타난다.
@@ -154,7 +152,7 @@ categories: [css, flexbox, guide]
 
 * **flex-shrink**
 
-  ![img16](C:\Users\multicampus\codevlog.github.io\assets\img\flexbox\img16.png)
+  ![img16](/assets/img/flexbox/img16.png)
 
   * grow 의 반대 개념
   * 음수 유효하지 않음
@@ -163,7 +161,7 @@ categories: [css, flexbox, guide]
 
 * **flex-basis**
 
-  ![img17](C:\Users\multicampus\codevlog.github.io\assets\img\flexbox\img17.png)
+  ![img17](/assets/img/flexbox/img17.png)
 
   * flex 아이템의 크기를 결정, 숫자나 키워드로 정의 가능
   * flex 아이템에 크기가 지정되어 있지 않으면 내용물 크기가 flex-basis 값으로 사용됨
@@ -173,7 +171,7 @@ categories: [css, flexbox, guide]
 
 * **flex**
 
-  ![img18](C:\Users\multicampus\codevlog.github.io\assets\img\flexbox\img18.png)
+  ![img18](/assets/img/flexbox/img18.png)
 
   * flex 속성들 한꺼번에 지정하고 싶을 때 사용
 
@@ -181,7 +179,14 @@ categories: [css, flexbox, guide]
 
 * **align-self**
 
-  ![img19](C:\Users\multicampus\codevlog.github.io\assets\img\flexbox\img19.png)
+  ![img19](/assets/img/flexbox/img19.png)
 
   * 개별 flex 아이템들의 정렬을 가능하게 함
   * Note: float, clear, vertical-align은 flex 아이템에 영향을 주지 않는다.
+
+
+
+## 참고 사이트
+
+* <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>
+
