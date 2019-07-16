@@ -26,7 +26,14 @@ categories: [develop, frontend, component, vue]
 
 ## Learning & Implementation
 
+#### Imgur API
 
+1. 회원가입
+2. OAuth2
+   1. Registration:
+   2. Authorization: Postman을 활용해서
+   3. 요청
+3. API Request
 
 
 
