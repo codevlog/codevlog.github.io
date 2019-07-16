@@ -27,7 +27,7 @@ categories: [css, grid, guide]
 
 * **Grid Container**
 
-  ![1563179808259](/assets/img/Grid/img1.png)
+  ![img1](/assets/img/Grid/img1.png)
 
   * display: grid 하면 적용된다.
   * 모든 grid 아이템들의 부모가 된다.
@@ -38,7 +38,7 @@ categories: [css, grid, guide]
 
 * **Grid Item**
 
-  ![1563179972366](/assets/img/Grid/img2.png)
+  ![img2](/assets/img/Grid/img2.png)
 
   * grid container의 자식들
   * 여기서 item 요소들은 grid 아이템이 맞지만, sub-item은 아니다. 
@@ -49,7 +49,7 @@ categories: [css, grid, guide]
 
 * **Grid Line**
 
-  ![1563180333092](/assets/img/Grid/img3.png)
+  ![img3](/assets/img/Grid/img3.png)
 
   * row grid lines 와 colum grid lines  두 종류가 있다.
   * 범위 지정할 때 사용
@@ -60,7 +60,7 @@ categories: [css, grid, guide]
 
 * **Grid Track**
 
-  ![1563180482951](/assets/img/Grid/img4.png)
+  ![img4](/assets/img/Grid/img4.png)
 
   * 인접한 두 grid lines 사이의 공간을 의미.
   * 위 사진은 2번과 3번 row lines 사이의 grid track
@@ -71,7 +71,7 @@ categories: [css, grid, guide]
 
 * **Grid Cell**
 
-  ![1563180588234](/assets/img/Grid/img5.png)
+  ![img5](/assets/img/Grid/img5.png)
 
   * grid의 한 unit이다.
 
@@ -81,7 +81,7 @@ categories: [css, grid, guide]
 
 * **Grid Area**
 
-  ![1563180724119](/assets/img/Grid/img6.png)
+  ![img6](/assets/img/Grid/img6.png)
 
   * 4개의 grid lines들로 둘러 쌓인 공간
 
@@ -97,7 +97,7 @@ categories: [css, grid, guide]
 
 * **display**
 
-  ![1563235330445](/assets/img/Grid/img7.png)
+  ![img7](/assets/img/Grid/img7.png)
 
   * Grid container 선언
   * grid - block level grid를 생성
@@ -109,7 +109,7 @@ categories: [css, grid, guide]
 
 * **grid-template-columns/rows**
 
-  ![1563235792802](/assets/img/Grid/img8.png)
+  ![img8](/assets/img/Grid/img8.png)
 
   * grid의 column 과 row 값 설정. 값은 track size나 grid line 사이의 공간을 의미(크기)
   * 값을 설정하는 방식이 다양하다 
@@ -123,13 +123,13 @@ categories: [css, grid, guide]
 
 * **grid-template-areas**
 
-  ![1563238555289](/assets/img/Grid/img9.png)
+  ![img9](/assets/img/Grid/img9.png)
 
   * grid-area 속성으로 특정된 grid area의 이름을 참조해서 grid template을 정의
   * 선언 시 area 이름을 반복하면 영역 확장. `.`은 빈 셀을 의미한다.
   * 예시
 
-  ![1563238773901](/assets/img/Grid/img10.png)
+  ![img10](/assets/img/Grid/img10.png)
 
   * 각 행에 대해서 선언을 할 때 같은 셀 수를 가지고 있어야함
   * area에 대해 이름을 부여하면 자동적으로 line 이름이 생김. (name-start / name-end), line은 여러 이름을 가질 수 있다.
@@ -140,7 +140,7 @@ categories: [css, grid, guide]
 
 * **grid-template**
 
-  ![1563239147554](/assets/img/Grid/img11.png)
+  ![img11](/assets/img/Grid/img11.png)
 
   * 앞선 grid-template-rows / grid-template-columns / grid-template-area를 한번에 설정할 수 있는 방법
 
@@ -152,13 +152,13 @@ categories: [css, grid, guide]
 
 * **grid-column-gap / grid-row-gap**
 
-  ![1563239446614](/assets/img/Grid/img12.png)
+  ![img12](/assets/img/Grid/img12.png)
 
   * grid line들의 size를 설정
   * 영역 안 쪽만 설정되며, 경계는 제외.
   * 예시
 
-  ![1563239645004](/assets/img/Grid/img13.png)
+  ![img13](/assets/img/Grid/img13.png)
 
 
 
@@ -166,7 +166,7 @@ categories: [css, grid, guide]
 
 * **grid-gap**
 
-  ![1563239729385](/assets/img/Grid/img14.png)
+  ![img14](/assets/img/Grid/img14.png)
 
   * grid-row-gap / grid-column-gap 한 번에 설정하는 방법
 
@@ -176,13 +176,13 @@ categories: [css, grid, guide]
 
 * **justify-items**
 
-  ![1563239972341](/assets/img/Grid/img15.png)
+  ![img15](/assets/img/Grid/img15.png)
 
   * grid 아이템들을 행에 정렬하는 방식
   * **start** - 시작 / **end** - 끝 / **center** - 중간 / **stretch** - 꽉 차게(default)
   * 예시
 
-  ![1563240418211](/assets/img/Grid/img16.png)
+  ![img16](/assets/img/Grid/img16.png)
 
 
 
@@ -192,12 +192,12 @@ categories: [css, grid, guide]
 
 * **align-items**
 
-  ![1563240537687](/assets/img/Grid/img17.png)
+  ![img17](/assets/img/Grid/img17.png)
 
   * justify-items의 세로 형식
   * 예시
 
-  ![1563240611895](/assets/img/Grid/img18.png)
+  ![img18](/assets/img/Grid/img18.png)
 
 
 
@@ -227,7 +227,7 @@ categories: [css, grid, guide]
     * **space-evenly** - grid 아이템들과 양 끝 공간을 동일하게 할당
   * 예시
 
-  ![1563241141150](/assets/img/Grid/img19.png)
+  ![img19](/assets/img/Grid/img19.png)
 
 
 
@@ -239,11 +239,11 @@ categories: [css, grid, guide]
 
   * justify-content 세로 형식
 
-  ![1563241299363](/assets/img/Grid/img20.png)
+  ![img20](/assets/img/Grid/img20.png)
 
   * 예시
 
-  ![1563241351139](/assets/img/Grid/img21.png)
+  ![img21](/assets/img/Grid/img21.png)
 
 
 
@@ -265,7 +265,7 @@ categories: [css, grid, guide]
   * grid cell보다 더 큰 아이템이 있을 때나 기존 grid의 바깥 쪽에 grid 아이템이 놓일 때 자동으로 지정된 size의 grid track을 생성해준다.
   * 예시
 
-  ![1563242990354](/assets/img/Grid/img22.png)
+  ![img22](/assets/img/Grid/img22.png)
 
 
 
@@ -282,7 +282,7 @@ categories: [css, grid, guide]
     * **dense** - 작은 크기의 아이템이 나중에 나타날 경우 빈 공간에 채운다.
   * 예시
 
-  ![1563243875363](/assets/img/Grid/img23.png)
+  ![img23](/assets/img/Grid/img23.png)
 
 
 
@@ -295,7 +295,7 @@ categories: [css, grid, guide]
   * 앞서 소개한 grid-template-rows/columns, grid-template-areas, grid-auto-rows/columns, grid-auto-flow 속성들을 한 번에 설정 가능
   * 예시(아래 두 그림은 같은 설정이다.)
 
-  ![1563244014904](/assets/img/Grid/img24.png)
+  ![img24](/assets/img/Grid/img24.png)
 
 
 
@@ -321,7 +321,7 @@ categories: [css, grid, guide]
     * auto 
   * 예시
 
-  ![1563245567309](/assets/img/Grid/img25.png)
+  ![img25](/assets/img/Grid/img25.png)
 
 
 
@@ -336,7 +336,7 @@ categories: [css, grid, guide]
   * grid-column-start + grid-column-end 와 grid-row-start + grid-row-end 를 설정하는 방법
   * 예시
 
-  ![1563245678246](/assets/img/Grid/img26.png)
+  ![img26](/assets/img/Grid/img26.png)
 
 
 
@@ -349,7 +349,7 @@ categories: [css, grid, guide]
   * grid-row-start + grid-column-start + grid-row-end + grid-column-end 를 한 번에 설정하는 방법
   * 예시
 
-  ![1563245862084](/assets/img/Grid/img27.png)
+  ![img27](/assets/img/Grid/img27.png)
 
 
 
@@ -361,11 +361,11 @@ categories: [css, grid, guide]
 
   * cell 내부에 존재하는 하나의 grid 아이템을 가로축을 따라 정렬하는 방법
 
-  ![1563245968009](/assets/img/Grid/img28.png)
+  ![img28](/assets/img/Grid/img28.png)
 
   * 예시
 
-  ![1563246005276](/assets/img/Grid/img29.png)
+  ![img29](/assets/img/Grid/img29.png)
 
 
 
@@ -375,11 +375,11 @@ categories: [css, grid, guide]
 
   * justify-self 의 세로 방식
 
-  ![1563246199665](/assets/img/Grid/img30.png)
+  ![img30](/assets/img/Grid/img30.png)
 
   * 예제
 
-  ![1563246227611](/assets/img/Grid/img31.png)
+  ![img31](/assets/img/Grid/img31.png)
 
 
 
@@ -390,7 +390,7 @@ categories: [css, grid, guide]
   * justify-self 와 align-self 를 한 번에 설정하는 방법
   * 예시
 
-  ![1563246280994](/assets/img/Grid/img32.png)
+  ![img32](/assets/img/Grid/img32.png)
 
 
 
