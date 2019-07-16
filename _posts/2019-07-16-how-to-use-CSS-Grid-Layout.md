@@ -6,7 +6,7 @@ title:  "CSS Grid Layout 이해하기"
 
 author: "nenemttin"
 
-date: '2019-07-15 17:20 +0900'
+date: '2019-07-16 12:50 +0900'
 
 categories: [css, grid, guide]
 ---
