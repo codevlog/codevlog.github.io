@@ -242,6 +242,6 @@ categories: [spring, blog, markdown]
 
 ## 참고문헌
 
-firebase 문서 : https://firebase.google.com/docs/web/setup
+스프링부트 시작하기. 김인우 저
 
-facebook 문서 : https://developers.facebook.com/docs/
+Toast Meetup Logging과 Profile 전략 :  https://meetup.toast.com/posts/149
