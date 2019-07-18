@@ -317,3 +317,17 @@ CREATE TABLE `posts` (
 
 ![result](/assets/img/springRestAPI/result.PNG)
 
+## 참고자료
+
+- [스프링 REST Service 튜토리얼](https://spring.io/guides/gs/rest-service/)
+
+- [스프링 MySQL 튜토리얼](https://spring.io/guides/gs/accessing-data-mysql/)
+
+- [마이바티스 Mapper 문서](http://www.mybatis.org/mybatis-3/sqlmap-xml.html)
+
+- [JDBC 동적으로 세팅하기](https://www.baeldung.com/spring-boot-configure-data-source-programmatic)
+
+- [스택오버플로우 마이바티스 다중 인자 질문글](https://stackoverflow.com/questions/24968088/how-can-i-pass-multiple-parameters-and-use-them)
+
+- [W3School SQL 설명](https://www.w3schools.com/sql/sql_update.asp)
+
