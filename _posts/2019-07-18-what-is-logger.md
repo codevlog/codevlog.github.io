@@ -20,17 +20,21 @@ categories: [spring, blog, markdown]
 
 
 1. Logback이란?
+
     Logback의 장점
+
         1. 과거에 사용였던 Log4j를 바탕으로 만들어서 검증되어 있습니다.
-        1. Log4j부터 진행한 테스트 경험을 바탕으로 더욱 광범위한 테스트를 거쳤습니다.
-        1. 로그 설정이 변경될 경우 서버 재시작을 안하더라도 반영이 됩니다.
+
+        2. Log4j부터 진행한 테스트 경험을 바탕으로 더욱 광범위한 테스트를 거쳤습니다.
+
+        3. 로그 설정이 변경될 경우 서버 재시작을 안하더라도 반영이 됩니다.
     
     위와 같은 장점을 바탕으로 Logback은 slf4j를 이용해서 사용하게 됩니다.
+
     물론 스프링 부트로 프로젝트를 만들경우 Logback을 기본으로 작성됩니다.
 
 
 2. Logback을 이용해서 구현해보기
-
 
       1. Logback 설정하기
 
@@ -61,7 +65,9 @@ categories: [spring, blog, markdown]
 
    encoder : appender에 포함되서 출력할 로그를 지정된 형식으로 변환해주는 역할
 
-   logger : 로그를 출력하는 요소. level의 속성을 이용해서 지정할 수 있습니다. Debug레벨의 로그를 출력				하는 형식은 위의 지정된 appender를 통해서 지정할 수 있습니다.
+   logger : 로그를 출력하는 요소. level의 속성을 이용해서 지정할 수 있습니다. 
+   
+   ex) Debug레벨의 로그를 출력하는 형식은 위의 지정된 appender를 통해서 지정할 수 있습니다.
 
    ※ 참고 log의 레벨
 
@@ -79,11 +85,9 @@ categories: [spring, blog, markdown]
 
    ex) Debug로 설정 했을 경우 : debug, info, warn, error
 
-   ​	   Info로 설정 했을 경우 : info, warn, error
+   ​	Info로 설정 했을 경우 : info, warn, error
 
    ※ 부분의 위로 갈수록 더 많은 로그를 출력하게 됩니다.
-
-   
 
    ​	2.Logback 사용하기
 
@@ -105,14 +109,12 @@ categories: [spring, blog, markdown]
    log.warn("Log message warn level");
    log.error("Log message error level");
    ```
-
    
-
    3. Log4jdbc 설정하기
 
    왜 Log4jdbc를 사용하는가? 
 
-   ​	길이가 긴 쿼리로그들도 보기 쉽게 만들기 위한 목적입니다.
+   ​    길이가 긴 쿼리로그들도 보기 쉽게 만들기 위한 목적입니다.
 
    우선 사용하기 위해서 build.gradle의 dependencies에 다음과 같이 추가 합니다.
 
@@ -159,26 +161,20 @@ categories: [spring, blog, markdown]
 
    jdbc.connection :  Connection의 연결과 종료에 관련된 로그를 보여줍니다.
 
-   
-
    4. Log4jdbc를 이용해서 쿼리 로그 확인하기
 
-   ![LogResult](/assets/img/Logger/Log4jdbc결과.PNG)
-
-
+        ![LogResult](/assets/img/Logger/Log4jdbc결과.PNG)
 
 
 3. Spring의 인터셉터(interceptor)를 이용해서 REST API 추적해 보기
 
-   ​	![SpringInterceptor](/assets/img/Logger/스프링인터셉터.png)
+        ![SpringInterceptor](/assets/img/Logger/스프링인터셉터.png)
 
    위의 그림은 스프링 MVC 요청 사이클 입니다.
 
    위에서 보듯이 사용자의 요청은 Filter를 거치거나 Contoller를 가기 위해서는 interceptor를 거치게 됩니다.
 
-   여기서 filter와 interceptor의 차이점은 필터는 Dispatcher Servlet에 가기전에 동작을 하고 interceptor는 Handler Controller로 가기 전에 동작합니다. 그리고 Interceptor는 filter와 다르게 스프링 빈을 사용할 수 있습니다.
-
-   
+   여기서 filter와 interceptor의 차이점은 **필터는 Dispatcher Servlet에 가기전에 동작**을 하고 **interceptor는 Handler Controller로 가기 전에 동작**합니다. 그리고 Interceptor는 filter와 다르게 스프링 빈을 사용할 수 있습니다.
 
    Interceptor는 다음과 같이 구현 할 수 있습니다.
 
@@ -212,7 +208,6 @@ categories: [spring, blog, markdown]
 
    afterCompletion : 뷰의 작업까지 완료된 후 수행됩니다.
 
-   
 
    그리고 위의 interceptor를 Configuration에 등록해 합니다.
 
@@ -231,8 +226,6 @@ categories: [spring, blog, markdown]
        }
    }
    ```
-
-   
 
    그러면 위와 같은 결과를 얻을 수 있습니다.
 
