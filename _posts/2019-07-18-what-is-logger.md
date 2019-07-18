@@ -24,9 +24,9 @@ categories: [spring, blog, markdown]
     Logback의 장점
 
         1. 과거에 사용였던 Log4j를 바탕으로 만들어서 검증되어 있습니다.
-
+    
         2. Log4j부터 진행한 테스트 경험을 바탕으로 더욱 광범위한 테스트를 거쳤습니다.
-
+    
         3. 로그 설정이 변경될 경우 서버 재시작을 안하더라도 반영이 됩니다.
     
     위와 같은 장점을 바탕으로 Logback은 slf4j를 이용해서 사용하게 됩니다.
@@ -150,15 +150,15 @@ categories: [spring, blog, markdown]
    ※ 참고 log4jdbc는 다음과 같은 name을 지원합니다.
 
         jdbc.sqlonly : SQL 쿼리문을 보여줍니다. 
-
+    
         jdbc.sqltiming : SQL문과 SQL문의 실행 시간을 milisecond단위로 보여줍니다.
-
+    
         jdbc.audit : ResultSet을 제외한 모든 정보를 다 보여줍니다.
-
+    
         jdbc.resultset : 위의 결과값에서 ResultSet까지 보여줍니다.
-
+    
         jdbc.resulttable : SQL의 결과를 테이블로 표현해줍니다.
-
+    
         jdbc.connection :  Connection의 연결과 종료에 관련된 로그를 보여줍니다.
 
    4. Log4jdbc를 이용해서 쿼리 로그 확인하기
@@ -168,7 +168,7 @@ categories: [spring, blog, markdown]
 
 3. Spring의 인터셉터(interceptor)를 이용해서 REST API 추적해 보기
 
-        ![SpringInterceptor](/assets/img/Logger/스프링인터셉터.png)
+    ![SpringInterceptor](/assets/img/Logger/스프링인터셉터.png)
 
    위의 그림은 스프링 MVC 요청 사이클 입니다.
 
@@ -231,7 +231,7 @@ categories: [spring, blog, markdown]
 
    ![SpringInterceptor](/assets/img/Logger/LoggerInterceptor.PNG)
 
-   
+
 ## 참고문헌
 
 스프링부트 시작하기. 김인우 저
