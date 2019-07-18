@@ -38,12 +38,14 @@ categories: howto
 - 링크: http://jekyllthemes.org/
 - 위 링크에 들어가서 마음에 드는걸 고르고(데모 페이지를 볼수 있는 것도 있다)
 - 해당 repo에 들어가서 위에서 clone한 빈 repo에 내용물을 넣는다
-- build하기(Windows10 기준). Rubygem bundler가 필요하다
-  - 루비 설치: https://rubyinstaller.org/downloads/
-  - Bundler 설치: `(cmd)$ gem install bundler`
-  - git repo 폴더로 이동.
-  - `(cmd)$ bundle install`
-  - (선택) 로컬로 돌려보기: `(cmd)$ jekyll serve`
+- ~~build하기(Windows10 기준). Rubygem bundler가 필요하다~~
+  - ~~루비 설치: https://rubyinstaller.org/downloads/~~
+  - ~~Bundler 설치: `(cmd)$ gem install bundler`~~
+  - ~~git repo 폴더로 이동.~~
+  - ~~`(cmd)$ bundle install`~~
+  - ~~(선택) 로컬로 돌려보기: `(cmd)$ jekyll serve~~`
+
+- **(7/18에 추가)** Jekyll은 Github Pages에만 활용되는 것이 아니고, 테마들 중에는 Github이 지원하지 않는 테마도 있다. Github Pages로 지원되는 테마는 repo에 올리면 자동으로 빌드를 해준다. 그렇지 않은 경우, 즉 Jekyll을 활용해 Github Pages가 아닌 웹페이지를 생성하겠다면 위의 빌드 과정이 필요하고 Github Pages에 활용할 경우에는 빌드 과정이 필요 없다.
 
 
 
