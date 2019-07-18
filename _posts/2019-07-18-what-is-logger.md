@@ -16,8 +16,8 @@ categories: [spring, blog, markdown]
     1. Log4jdbc 설정하기
     1. Log4jdbc를 이용해서 쿼리 로그 확인하기
 1. Spring의 인터셉터(interceptor)를 이용해서 REST API 추적해 보기
----
 
+---
 
 1. Logback이란?
 
@@ -71,9 +71,9 @@ categories: [spring, blog, markdown]
 
    ※ 참고 log의 레벨
 
-   ​	trace : 모든 로그를 출력
+   ​    trace : 모든 로그를 출력
 
-   ​	debug : 개발할 때 debug용으로 주로 사용합니다.
+   ​    debug : 개발할 때 debug용으로 주로 사용합니다.
 
    ​	info : 상태 변경과 같은 정보성 메시지
 
@@ -114,7 +114,7 @@ categories: [spring, blog, markdown]
 
    왜 Log4jdbc를 사용하는가? 
 
-   ​    길이가 긴 쿼리로그들도 보기 쉽게 만들기 위한 목적입니다.
+        길이가 긴 쿼리로그들도 보기 쉽게 만들기 위한 목적입니다.
 
    우선 사용하기 위해서 build.gradle의 dependencies에 다음과 같이 추가 합니다.
 
@@ -124,7 +124,7 @@ categories: [spring, blog, markdown]
 
    그리고 log4jdbc를 설정하기 위한 propertity를 다음과 같이 작성해줍니다.
 
-   ```log4jdbc.log4j2.properties
+   ```properties
    log4jdbc.spylogdelegator.name = net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator
    log4jdbc.dump.sql.maxlinelength = 0
    ```
@@ -149,17 +149,17 @@ categories: [spring, blog, markdown]
 
    ※ 참고 log4jdbc는 다음과 같은 name을 지원합니다.
 
-   jdbc.sqlonly : SQL 쿼리문을 보여줍니다. 
+        jdbc.sqlonly : SQL 쿼리문을 보여줍니다. 
 
-   jdbc.sqltiming : SQL문과 SQL문의 실행 시간을 milisecond단위로 보여줍니다.
+        jdbc.sqltiming : SQL문과 SQL문의 실행 시간을 milisecond단위로 보여줍니다.
 
-   jdbc.audit : ResultSet을 제외한 모든 정보를 다 보여줍니다.
+        jdbc.audit : ResultSet을 제외한 모든 정보를 다 보여줍니다.
 
-   jdbc.resultset : 위의 결과값에서 ResultSet까지 보여줍니다.
+        jdbc.resultset : 위의 결과값에서 ResultSet까지 보여줍니다.
 
-   jdbc.resulttable : SQL의 결과를 테이블로 표현해줍니다.
+        jdbc.resulttable : SQL의 결과를 테이블로 표현해줍니다.
 
-   jdbc.connection :  Connection의 연결과 종료에 관련된 로그를 보여줍니다.
+        jdbc.connection :  Connection의 연결과 종료에 관련된 로그를 보여줍니다.
 
    4. Log4jdbc를 이용해서 쿼리 로그 확인하기
 
@@ -178,7 +178,7 @@ categories: [spring, blog, markdown]
 
    Interceptor는 다음과 같이 구현 할 수 있습니다.
 
-   ```interceptor.java
+   ```java
    import javax.servlet.http.HttpServletRequest;
    import javax.servlet.http.HttpServletResponse;
    
@@ -211,7 +211,7 @@ categories: [spring, blog, markdown]
 
    그리고 위의 interceptor를 Configuration에 등록해 합니다.
 
-   ```WebMvcConfiguration.java
+   ```java
    import org.springframework.context.annotation.Configuration;
    import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
    import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
@@ -232,7 +232,6 @@ categories: [spring, blog, markdown]
    ![SpringInterceptor](/assets/img/Logger/LoggerInterceptor.PNG)
 
    
-
 ## 참고문헌
 
 스프링부트 시작하기. 김인우 저
