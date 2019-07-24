@@ -2,7 +2,7 @@
 layout: post
 title: "GraphQL에 대한 얕은 물"
 author: "Geon._.Uk"
-date: '2019-07-24 18:48:00 +0900
+date: '2019-07-24 18:48:00 +0900'
 categories: [GraphQL, API, Git, Language]
 ---
 
