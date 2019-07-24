@@ -34,9 +34,9 @@ Server API를 구성하다 보니 주로 RESTful API와 비교 하면서 장단�
 
 그림으로 설명하면 다음과 같다.
 아래는 일반적인 RESTful 의 구조이다.
-![restful](../assets/img/graphQL/restful.png)
+![restful](/assets/img/graphQL/restful.png)
 하지만 GraphQL의 구조는 조금 다르다.
-![GraphQL](../assets/img/graphQL/graphql.png)
+![GraphQL](/assets/img/graphQL/graphql.png)
 
 위의 두 구조를 살펴보면 RESTful 같은 경우는 URL 마다 마다 데이터를 받아야하기 때문에 접속요청이 증가한다. 하지만 GraphQL은 한번에 데이터를 모아 가져오기 때문에 요청횟수가 줄어들게 된다.
 
